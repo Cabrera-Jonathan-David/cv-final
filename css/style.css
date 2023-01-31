@@ -1,0 +1,256 @@
+*{
+   box-sizing: border-box;
+}
+
+body {
+    color: white; 
+    background-color:rgba(243,244,245);
+    margin: 0px ;
+    font-family: sans-serif;
+    }
+
+header {
+    position:fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    background-color: rgb(8, 11, 34);    
+    margin-bottom: 5px;
+    }
+    
+.container{
+        max-width: 1200px;
+        margin: auto;   
+    }
+    
+section {    
+        margin-bottom: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+h1 {
+    font-size: 6vw;
+    text-align: center;
+    margin-top: 5px;
+    text-decoration: underline;
+    }
+h2 {
+    text-align: center;
+
+    
+}
+ul{ padding-inline-start: 0;
+    list-style: none;
+    font-size: 3.5vw;
+    display:flexbox;
+    margin-right: 10px;
+}
+.listas{
+    display: flex;
+}
+b{
+    text-decoration: underline;
+}
+
+
+ /*----------------Encabezado---------------- */
+
+header nav { 
+    
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    
+}
+
+header a {
+    align-items: center center;
+    padding: 10px;
+    margin: 2vw;
+    color: white;
+        
+}
+
+header .container{
+    height: 3em;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    display: flex;
+}
+
+#inicio {
+    font-weight: 700;
+    
+}
+
+
+/* ----------------Informacion Personal---------------- */
+
+
+#dPersonales .container{
+    color:black;
+    display: flex;
+    justify-content: space-between;
+}
+
+#dPersonales {
+    margin-top: 50px;
+    padding-top: 7px;
+    padding-left: 7px;
+    margin-bottom: 20px;
+}
+
+.datos {
+    width: 60%;
+}
+
+#fotoCarnet {
+    width: 30%;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+
+/* ----------------Informacion Profesional---------------- */
+#dLaborales {
+
+    
+    text-align: center;  
+    background-color: rgb(8, 11, 34);
+    border-radius: 20px;
+    padding-bottom: 20px;
+        
+}
+#dLaborales .container{
+    padding: 20px;
+}
+
+#dLaborales h2{
+    font-size: 3vw;
+    
+}
+#cajaEx {
+
+    width: 100%;    
+    background-size: cover;
+    background-position: center center;
+    align-items: center;
+    background-repeat: no-repeat;
+    padding: 20px 0px 20px 0px;
+    background-image:
+    linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)),
+        url(https://img.remediosdigitales.com/42d76a/gioconda/1366_2000.jpeg);
+    }
+    
+#cajaEx a{
+    text-decoration: none;
+    color: lightgray;
+
+}
+
+#cajaEx a:hover{
+    color: yellow;
+}
+
+    
+#cajaHab {
+    margin-top: 40px;
+    text-align: start;
+    padding-bottom: 40px;
+    font-size: 2vw;
+}   
+
+#cajaHab p {
+    
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#masInfo{
+    font-size: 2vw;
+    background: none;
+    border: none;
+    color: antiquewhite;
+}
+#masInfo:hover{
+    color:yellow;
+
+}
+#hidden {
+    display: none;
+}
+
+
+/* ----------------Pie de Pagina---------------- */
+
+footer {background-color: rgb(88, 80, 135)}
+
+footer .container{
+    align-items: flex-end;
+    justify-content: center;
+    height: 50px;
+    display: flex;
+}
+
+footer p{
+    color: rgb(28, 27, 27);
+}
+
+
+
+
+
+
+
+
+
+/* ----------------Cuestionario---------------- */
+#pregunta{
+    color:lightgrey;
+    font-size: 7vw;
+    text-align: center;
+    
+}
+#cuestionario {
+    display:none;
+    background-color:rgb(8, 11, 34);
+    position:fixed;
+    top: 50px;
+    left: 20%;
+    width: 60%; 
+    border: solid blue ;
+   
+
+}
+#cierre {
+    background-color: rgb(1, 1, 130);
+    text-align: center;
+    color: grey;
+    position: absolute;
+    top:1px;
+    right: 7px;
+    margin: 1px 1px 1px 10px;
+    font-size: 3vw;
+}
+
+#cuestionario .container{
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    justify-content: center;
+    }
+    
+
+
+#satCV button{
+        
+    font-size: 40px;
+    padding: 5px 10px 10px 5px;
+    margin: 0px 2vw 3vw 2vw;
+    width: 60px;
+    background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%); 
+}
+    
